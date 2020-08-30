@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg_image"
+    tools:context="com.se17.myweather.MainActivity" >
+ 
+    <TextView
+        android:id="@+id/cityTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    <TextView
+        android:id="@+id/updatedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityTV"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/temperatureTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updatedTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorWhite"
+        android:textSize="50sp" />
+ 
+    <TextView
+        android:id="@+id/weather_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="100sp"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/details_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weather_icon"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />        
+ 
+</RelativeLayout>

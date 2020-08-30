@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "437159936244",
+    "firebase_url": "https://fir-complainapp-286d6.firebaseio.com",
+    "project_id": "fir-complainapp-286d6",
+    "storage_bucket": "fir-complainapp-286d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437159936244:android:21c013755f508a3cca5ea1",
+        "android_client_info": {
+          "package_name": "com.se17.complainapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437159936244-5e71g7sb08q3rgacam5aq1qqm0hifjvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.se17.complainapp",
+            "certificate_hash": "ea37eff20407e0e670f4c7b9b53448913e47a35d"
+          }
+        },
+        {
+          "client_id": "437159936244-27iodpevl82hs12cnb3amdpu22rt4ktu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkRV5Dc28iA9lnJXnVxMtAkzJVt_2STxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437159936244-27iodpevl82hs12cnb3amdpu22rt4ktu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
